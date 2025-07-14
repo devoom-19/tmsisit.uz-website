@@ -7,7 +7,6 @@ class WorkerBase(BaseModel):
     position: str
     phone_number: Optional[str] = None
     email: Optional[EmailStr] = None
-    avatar: str
 
 
 class WorkerCreate(WorkerBase):

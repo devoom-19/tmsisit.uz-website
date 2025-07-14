@@ -7,8 +7,9 @@ models.Base.metadata.create_all(bind=engine)
 
 router = APIRouter(
     prefix="/management/vacancies",
-    tags=["vacancies"]
+    tags=["Vacancies"]
 )
+
 
 def get_db():
     db = SessionLocal()
